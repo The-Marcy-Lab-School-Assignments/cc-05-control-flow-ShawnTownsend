@@ -8,5 +8,3 @@ function absoluteValue(integer){
 	else
 		return integer * (-1);
 }
-
-console.log(absoluteValue("Shawn"))
