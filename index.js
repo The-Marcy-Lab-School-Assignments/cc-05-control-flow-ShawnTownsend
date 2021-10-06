@@ -1,8 +1,12 @@
 //1
-function absoluteValue(){
-  
+function absoluteValue(integer){
+    if (isNaN(integer)) {
+        return 'null'
+    }
+    else if (integer >= 0)
+		return integer;
+	else
+		return integer * (-1);
 }
 
-
-
-
+console.log(absoluteValue("Shawn"))
